@@ -1,4 +1,5 @@
 import { SessionProvider } from "next-auth/react"
+import '../styles/globals.css'
 
 export default function App({
   Component,
@@ -6,11 +7,6 @@ export default function App({
 }) {
   return (
     <SessionProvider session={session}>
-      <Head>
-        <title>nextauth popup login</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <Component {...pageProps} />
     </SessionProvider>
   )

@@ -32,22 +32,30 @@ export default function Home() {
   };
 
   if (status === "authenticated") {
-    <h2>Welcome {session.user.email} 😀</h2>
+    return (
+      <div>
 
+        < h2 > Welcome {session.user.email} 😀</h2 >
+        <button onClick={() => signOut()}>Sign out</button>
+      </div>
+    )
   }
   else if (status === "unauthenticated") {
-    <div>
+    return (
 
-      <h2>Please Login</h2>
-      <button onClick={() => popupCenter("/auth/sign_in", "Sample Sign In")} >
-        Sign In with Google
-      </button>
-    </div>
+      <div>
+
+        <h2>Please Login</h2>
+        <button onClick={() => popupCenter("/google-signin", "Sample Sign In")} >
+          Sign In with Google
+        </button>
+      </div>
+    )
   }
 
   return (
     <div>
-
+      <h1>Loading...</h1>
     </div>
   )
 }

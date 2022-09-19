@@ -1,5 +1,5 @@
 /* place all content middle of screen */
-body {
+html {
   display: flex;
   justify-content: center;
   align-items: center;
