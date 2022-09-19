@@ -19,9 +19,13 @@ to install project:
 
 ```bash
 yarn
+#or
+npm install
 ```
 
 to see the webpage:
 ```bash
 yarn dev
+#or
+npm run dev
 ```
