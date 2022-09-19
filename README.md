@@ -1,7 +1,12 @@
+
 A simple JS example for NextAuth Google login with a popup window instead of redirect.
 
 All credits to [krushilnaik](https://github.com/krushilnaik/with-prisma-mongodb-nextauth) 
 
+\_____
+
+
+live example: http://popuplogin.vercel.app/
 
 ## Quick start
 
