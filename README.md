@@ -6,7 +6,7 @@ All credits to [krushilnaik](https://github.com/krushilnaik/with-prisma-mongodb-
 \_____
 
 
-live example: http://popuplogin.vercel.app/
+live example: https://nextauth-popup.vercel.app/
 
 ## Quick start
 
